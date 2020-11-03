@@ -1,49 +1,49 @@
 # node_eval
 
-Blogs Api
-Basic example of Blog application, which uses    Express.js backend running on top of Node.js.
+Blogs Api  
+Basic example of Blog application, which uses    Express.js backend running on top of Node.js.  
 
-The main purpose of this project was execute basic http method like get(), post(), delete(), put()
+The main purpose of this project was execute basic http method like get(), post(), delete(), put()  
 
  
-Prerequisites
-Must have Git installed
-download postman for testing the api
+Prerequisites  
+Must have Git installed  
+download postman for testing the api  
 
-Must have node.js   installed with npm (Node Package Manager)
-run npm install init
+Must have node.js   installed with npm (Node Package Manager)  
+run npm install init  
 
- dependencies
-    errorhandler for handling the error
-    express
-    jsonwebtoken
-    md5
-    passport
-    passport-jwt
-    pg
-    "pg-hstore
-    sequelize
+ dependencies  
+    errorhandler for handling the error  
+    express  
+    jsonwebtoken  
+    md5  
+    passport  
+    passport-jwt  
+    pg  
+    "pg-hstore  
+    sequelize  
      
   
 
   
-POST -
- /auth/signup for  registers (space, space)
- /AUTH/LOGIN  for  login using (space, space)
- blogs/   for creating a blog  (space, space)
+POST -  
+ /auth/signup for  registers  
+ /AUTH/LOGIN  for  login using    
+ blogs/   for creating a blog    
  
 
- GET -  (space, space)
+ GET -   
 
-get /blogs  get list of blogs for user from all the other users (space, space)
-get /blogs/id  get specific blog for user  (space, space)
+get /blogs  get list of blogs for user from all the other users   
+get /blogs/id  get specific blog for user  
 
- put -  (space, space)
- /blogs/id  user can update it's own blog (space, space)
+ put -   
+ /blogs/id  user can update it's own blog   
  
  
  
-DELETE - (space, space)
-/blogs/id to remove his own blog (space, space)
+DELETE -  
+/blogs/id to remove his own blog   
 
  
