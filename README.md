@@ -28,22 +28,22 @@ run npm install init
 
   
 POST -
- /auth/signup for  registers
- /AUTH/LOGIN  for  login using
- blogs/   for creating a blog
+ /auth/signup for  registers (space, space)
+ /AUTH/LOGIN  for  login using (space, space)
+ blogs/   for creating a blog  (space, space)
  
 
- GET -  
+ GET -  (space, space)
 
-get /blogs  get list of blogs for user from all the other users
-get /blogs/id  get specific blog for user
+get /blogs  get list of blogs for user from all the other users (space, space)
+get /blogs/id  get specific blog for user  (space, space)
 
- put -
- /blogs/id  user can update it's own blog
+ put -  (space, space)
+ /blogs/id  user can update it's own blog (space, space)
  
  
  
-DELETE -
-/blogs/id to remove his own blog
+DELETE - (space, space)
+/blogs/id to remove his own blog (space, space)
 
  
