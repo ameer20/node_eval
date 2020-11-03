@@ -1,3 +1,8 @@
+
+db 
+Db_user_name
+
+.env
 # Logs
 logs
 *.log
