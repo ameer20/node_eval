@@ -1,40 +1,49 @@
 # node_eval
 
-RESTful Bookmarks Node.js
-Basic example of bookmarks application, which uses Angular.js, Bootstrap and Express.js backend running on top of Node.js.
+Blogs Api
+Basic example of Blog application, which uses    Express.js backend running on top of Node.js.
 
-The main purpose of this project was show communication between Angular.js and Node.js backend through REST JSON data.
+The main purpose of this project was execute basic http method like get(), post(), delete(), put()
 
-TODO: review frontend and backend code
+ 
 Prerequisites
 Must have Git installed
+download postman for testing the api
 
-Must have node.js (at least v0.10.0) installed with npm (Node Package Manager)
+Must have node.js   installed with npm (Node Package Manager)
+run npm install init
 
-Installation Guide
-Enter the following commands in the terminal
+ dependencies
+    errorhandler for handling the error
+    express
+    jsonwebtoken
+    md5
+    passport
+    passport-jwt
+    pg
+    "pg-hstore
+    sequelize
+     
+  
 
-git clone https://github.com/erkobridee/restful-bookmarks-nodejs.git
-cd restful-bookmarks-nodejs
-npm install
-Commands
-Run application
-npm start or node server
+  
+POST -
+ /auth/signup for  registers
+ /AUTH/LOGIN  for  login using
+ blogs/   for creating a blog
+ 
 
-REST resources
-bookmark resource
-GET - get 1 or more bookmarks
+ GET -  
 
-.../rest/bookmarks/ - list all available bookmarks with pagination support ?page=${num}&size=${length}
+get /blogs  get list of blogs for user from all the other users
+get /blogs/id  get specific blog for user
 
-.../rest/bookmarks/{id} - get bookmark by given id
+ put -
+ /blogs/id  user can update it's own blog
+ 
+ 
+ 
+DELETE -
+/blogs/id to remove his own blog
 
-POST - add new one
-
-.../rest/bookmarks/ - data sent inside body request
-PUT - update an existent one
-
-.../rest/bookmarks/{id} - data sent inside body request
-DELETE - remove bookmark by given id
-
-.../rest/bookmarks/{id}
+ 
