@@ -44,6 +44,6 @@ get /blogs/id  get specific blog for user
  
  
 DELETE -  
-/blogs/id to remove his own blog   
+/blogs/id to remove his own  blog   
 
  
